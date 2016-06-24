@@ -48,16 +48,16 @@
 				</div>
 				
 				<div id="text">
-				<h2>Text Changer</h2>
-					<p>My website has the powerful ability to change your text with the click of a button! Try it below!</p>
 					<form id="my-form" name="myForm" action="#">
+					<h2>Text Changer</h2>
+					<p>My website has the powerful ability to change your text with the click of a button! Try it below!</p>
 						<fieldset>
 							<h4>Text Changer:</h4>
-								<label class="labeltwo" for="text">Insert text here:</label>
-								<input name="textToChange"></textarea>
-						</fieldset>
-						<fieldset>
-							<button onClick="textChange()">Submit</button>
+								<label class="labeltwo" for="text">Type Something Below:</label>
+								<input id="changer" type="text" name="textToChange"/>
+							<p style="padding-left:20px;">
+							<button type="button" onClick="textChange()">Submit</button>
+							</p>
 						</fieldset>
 					</form>
 				</div>
@@ -65,10 +65,10 @@
 			
 			<div id="footer">
 				Copyright &copy; 2016 Shugmi Shumunov
+				<span class="pagejump"><a href="#top" class="class1">Top of The Page</a></span>
 			</div>
 		
 		</div>
-		<a href="#top">Top of The Page</a>
 		<script src="script.js"></script>
 	</body>
 </html>
