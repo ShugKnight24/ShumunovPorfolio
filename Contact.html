@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shugmi Shumunov's Portfolio Site</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="top"></div>
+		<div id="container">
+			<div id="header">
+						<h1>Contact Me</h1>
+			</div>
+			
+			<div id="content">
+				<div id="nav">
+					<h3>Navigation</h3>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a class="selected" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				
+				<div id="main">
+					<h2>Contact Me</h2>
+					<p>I hope you enjoyed my first website. I love meeting new people, so if you found something that resonated with you, or you just want to reach 
+					out and chat, please fill out the form below, or shoot me an <a href="mailto:SShumunov@gmail.com">email</a>. I'll get back to you ASAP! I appreciate 
+					all messages and comments.</p>
+				</div>
+				
+				<div id="form-wrap">
+					<form>
+						<fieldset>
+							<h4>Contact Me:</h4>
+								<label class="labelone" for="name">Name:</label>
+								<input name="name"/>
+								<label for="email">E-mail:</label>
+								<input name="email"/>
+								<label for="comments">Comments:</label>
+								<textarea name="comments"></textarea>
+						</fieldset>
+						<fieldset>
+							<input class="btn" type="submit" value="Message Me"/>
+							<input class="btn" type="reset" value="Reset Form"/>
+						</fieldset>
+					</form>
+				</div>
+				
+				<div id="text">
+				<h2>Text Changer</h2>
+					<p>My website has the powerful ability to change your text with the click of a button! Try it below!</p>
+					<form id="my-form" name="myForm" action="#">
+						<fieldset>
+							<h4>Text Changer:</h4>
+								<label class="labeltwo" for="text">Insert text here:</label>
+								<input name="textToChange"></textarea>
+						</fieldset>
+						<fieldset>
+							<button onClick="textChange()">Submit</button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			
+			<div id="footer">
+				Copyright &copy; 2016 Shugmi Shumunov
+			</div>
+		
+		</div>
+		<a href="#top">Top of The Page</a>
+		<script src="script.js"></script>
+	</body>
+</html>
