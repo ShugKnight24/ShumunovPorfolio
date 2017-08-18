@@ -1,8 +1,8 @@
 body {
 	background-color: #999999;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.6);
-	font-family: Helvetica, Times New Roman, sans-serif;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.6);
+	font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
 a {
@@ -10,30 +10,30 @@ a {
 }
 
 h1 {
-		margin: 0;
+	margin: 0;
 }
 
 .my_name {
-	font-family: Comic Sans MS, sans-serif;
+	font-family: 'Comic Sans MS', sans-serif;
 	font-weight: bold;
 }
 
-#container{
+#container {
 	background-color: white;
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#header{
+#header {
 	background-color: #0020C2;
 	color: white;
 	text-align: center;
 	padding: 10px;
 }
 
-#content{
-	padding: 10px 10px 10px 10px;
+#content {
+	padding: 10px;
 }
 
 #nav {
@@ -46,11 +46,11 @@ h1 {
 	padding: 0;
 }
 
-#nav .selected{
+#nav .selected {
 	font-weight: bold;
 }
 
-#main{
+#main {
 	width: 830px;
 	float: right;
 }
@@ -66,12 +66,12 @@ h1 {
 	max-width: 200px;
 	max-height: 250px;
 	border: 2px solid #000000;
-	-moz-box-shadow: -5px -5px #777777; 
-	-webkit-box-shadow: -5px -5px #777777; 
+	-moz-box-shadow: -5px -5px #777777;
+	-webkit-box-shadow: -5px -5px #777777;
 	box-shadow: -5px -5px #777777;
 }
 
-#form-wrap{
+#form-wrap {
 	background-color: #0020C2;
 	width: 350px;
 	border: 5px solid #000000;
@@ -80,7 +80,7 @@ h1 {
 	clear: both;
 }
 
-#text{
+#text {
 	color: white;
 	background-color: #0020C2;
 	width: 350px;
@@ -90,7 +90,7 @@ h1 {
 	clear: both;
 }
 
-text h2{
+text h2 {
 	text-align: center;
 	margin: 20px 0 10px;
 	font: 24px sans-serif;
@@ -120,8 +120,8 @@ textarea {
 	margin: 0 0 0 20px;
 }
 
-fieldset{
-	border:none;
+fieldset {
+	border: none;
 	background-color: #F6F6F6;
 	padding: 0 0 20px 0;
 }
@@ -134,7 +134,7 @@ fieldset{
 	width: 125px;
 }
 
-form h4{
+form h4 {
 	text-align: center;
 	margin: 20px 0 10px;
 	font: 24px sans-serif;
@@ -151,8 +151,8 @@ form h4{
 }
 
 .pagejump {
-	display:inline-block; 
-	float:left;
+	display: inline-block;
+	float: left;
 }
 
 a.class1 {
